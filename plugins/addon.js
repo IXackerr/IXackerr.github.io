@@ -6,8 +6,6 @@
 	}
 	var TRASH_R = ['$$$####!!!!!!!', '^^^^^^##@', '@!^^!@#@@$$$$$', '^^#@@!!@#!$', '@#!@@@##$$@@'];
 	var version_modss = '3.1', API = Protocol() + 'api.lampa.stream/', type = '', jackets = {}, cards, ping_auth, manifest, menu_list = [], vip = false, leftVipD = '', user_id = '', uid = 'deae144f041e98948dda03e33', IP = '2a01:c23:912d:e600:cd34:780e:d826:860f', logged = false;
-	vip = true;
-	leftVipD = '99999999';
 	console.log('App', 'protocol:', Protocol());
 	
 	var Modss = {
