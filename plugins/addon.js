@@ -2699,14 +2699,10 @@ Date.now||(Date.now=function(){return(new Date.getTime())}),function(){"use stri
             } else _this.parse(extract);
           }
         } else if (type == 'sort') {
-          if (a.ghost) {
-            Lampa.Noty.show('Доступно в VIP подписке');
-          } else {
             Modss.getIp();
             Lampa.Select.close();
             object.modss_custom_select = a.source;
-            _this.changeBalanser(a.source);
-          }
+        	_this.changeBalanser(a.source);
         }
         if (object.movie.number_of_seasons || balanser == 'pub' || balanser == 'bazon') filter.render().find('.filter--filter').show();
 			  else filter.render().find('.filter--filter').hide();
