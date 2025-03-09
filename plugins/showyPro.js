@@ -79,7 +79,7 @@
   }
 
   // Устанавливаем токен авторизации, чтобы всегда быть авторизованным
-  Lampa.Storage.set("showy_token", "authorized_for_testing");
+  Lampa.Storage.set("showy_token", "a3d9b682-45c1-4f7e-b812-57fef2a6d9c3");
 
   if (Lampa.Platform.is("android") || Lampa.Platform.is("tizen")) check(true);
   else {
